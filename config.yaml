@@ -277,7 +277,7 @@ params:
         school:
           name: "George Brown College - Toronto Canada"
           url: "https://www.georgebrown.ca/"
-        date: "2009 - 2013"
+        date: "2023 - 2023"
         GPA: "3.9 out of 4.0"
         content: |-
           Key Subjects Covered and Notable Achievements
@@ -292,7 +292,7 @@ params:
         school:
           name: "Pacifico Business School - Lima Peru"
           url: "https://pbs.edu.pe/default.aspx"
-        date: "2009 - 2013"
+        date: "2022 - 2023"
         GPA: "3.8 out of 4.0"
         content: |-
           Key Subjects Covered and Notable Achievements
