@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Diego Fernandez</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Diego Fernandez</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 Jan 2025 22:53:58 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bias Variance Trade-off</title>
+      <link>http://localhost:1313/blogs/bias_variance_tradeoff/</link>
+      <pubDate>Mon, 27 Jan 2025 22:53:58 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/bias_variance_tradeoff/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;p&gt;When it comes to the 𝗯𝗶𝗮𝘀-𝘃𝗮𝗿𝗶𝗮𝗻𝗰𝗲 𝘁𝗿𝗮𝗱𝗲𝗼𝗳𝗳 and 𝗶𝘁𝘀 𝗿𝗲𝗹𝗮𝘁𝗶𝗼𝗻𝘀𝗵𝗶𝗽 𝘄𝗶𝘁𝗵 𝘂𝗻𝗱𝗲𝗿𝗳𝗶𝘁𝘁𝗶𝗻𝗴 𝗮𝗻𝗱 𝗼𝘃𝗲𝗿𝗳𝗶𝘁𝘁𝗶𝗻𝗴 𝗶𝗻 𝗺𝗮𝗰𝗵𝗶𝗻𝗲 𝗹𝗲𝗮𝗿𝗻𝗶𝗻𝗴, I sometimes need a few seconds to fully connect the dots in my mind. 🔄🧠 Has this ever happened to you? 🤔 If your answer is yes, let me share you how I see it and help myself. I always try to relate these concepts to real-life examples. I hope this approach benefits you too. 💡&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

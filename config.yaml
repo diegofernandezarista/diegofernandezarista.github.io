@@ -1,0 +1,442 @@
+baseURL: "https://diegofernandezarista.github.io/diegofernandezarista.github.io"
+# baseURL: https://example.org/
+languageCode: "en-us"
+title: "Diego Fernandez"
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+pagination:
+  pagerSize: 3
+# Paginate: 3
+enableRobotsTXT: true
+# disqusShortname: your-disqus-shortname
+# googleAnalytics: G-MEASUREMENT_ID
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Menus:
+  main:
+    - identifier: blog
+      name: Blog
+      title: Blog posts
+      url: /blogs
+      weight: 1
+    # - identifier: gallery
+    #   name: Gallery
+    #   title: Blog posts
+    #   url: /gallery
+    #   weight: 2
+    #Dropdown menu
+    # - identifier: dropdown
+    #   title: Example dropdown menu
+    #   name: Dropdown
+    #   weight: 3
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 2
+
+params:
+  title: "Diego Fernandez"
+  description: Personal Website
+  # staticPath: ""  # The path to serve the static files from
+  favicon: "/df_fav.png"
+
+  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
+  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
+  # Note the lack of "" in true, it should be of boolean type.
+  useBootstrapCDN: false
+
+  # If you want to load dynamically responsive images from Cloudinary
+  # This requires your images to be uploaded + hosted on Cloudinary
+  # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
+  # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
+
+  # Whether to add mathjax support on all pages. Alternatively, you can opt-in per page by adding `mathjax: true` in the frontmatter.
+  mathjax: false
+
+  # Whether the fade animations on the home page will be enabled
+  animate: true
+
+  theme:
+    disableThemeToggle: true
+    defaultTheme: "light" # dark
+
+  font:
+    fontSize: 1rem # default: 1rem
+    fontWeight: 400 # default: 400
+    lineHeight: 1.5 # default: 1.5
+    textAlign: left # default: left
+
+  # color preference
+  # When using hex codes for colors, quotations must be used along with the # sign
+  color:
+    textColor: "#343a40"
+    secondaryTextColor: "#6c757d"
+    textLinkColor: "#072fbb"
+    backgroundColor: "#eaedf0"
+    secondaryBackgroundColor: "#64ffda1a"
+    primaryColor: "#072fbb"
+    secondaryColor: "#f8f9fa"
+
+    darkmode:
+      textColor: "#e4e6eb"
+      secondaryTextColor: "#b0b3b8"
+      textLinkColor: "#ffffff"
+      backgroundColor: "#18191a"
+      secondaryBackgroundColor: "#212529"
+      primaryColor: "#ffffff"
+      secondaryColor: "#212529"
+
+  # If you want to customize the menu, you can change it here
+  navbar:
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    # showBrandLogo: false # Show brand logo in nav bar | default is true
+    brandName: "Diego Fernandez" # Brand name for the brand | default is the title variable
+    disableSearch: false
+    # searchPlaceholder: "Search"
+    stickyNavBar:
+      enable : true
+      showOnScrollUp : true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Diego Fernandez."
+    subtitle: "I build data-driven solutions."
+    content: "A passionate data analyst and engineer, I leverage modern data tools and machine learning techniques to turn complex data into actionable insights that drive business growth."
+    image: /images/diego_photo.png
+    bottomImage:
+      enable: true
+    # roundImage: true # Make hero image circular | default false
+    button:
+      enable: true
+      name: "Resume"
+      url: "documents/Resume_Diego Fernandez Arista.pdf"
+      download: true
+      newPage: true
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/diegofernandezarista
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/diego-fernandez-arista/
+        - icon: fab fa-instagram
+          url: https://www.instagram.com/diego_fer18/
+      # customIcons:
+      #   - icon: /fav.png
+      #     url: "https://example.com"
+
+  # About
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/diego_photo_aboutme.png"
+    content: |-
+      I am a data professional specializing in analytics, data science, and business intelligence, passionate about transforming data into actionable insights to drive business growth and operational efficiency. With over 3 years of experience, I excel in data extraction, manipulation, and visualization, as well as building predictive models and automating processes. My background in industrial engineering allows me to approach problems creatively and deliver solutions that optimize business operations and improve decision-making.
+      
+      My expertise spans SQL, Python, Power BI, and Tableau, and I apply these skills to deliver impactful data solutions that support strategic initiatives and foster continuous improvement.
+
+    skills:
+      enable: true
+      title: "Interests:"
+      items:
+        - "Data Analytics & Visualization"
+        - "Machine Learning & Predictive Modeling"
+        - "Business Intelligence & Reporting"
+        - "Statistical Analysis"
+        - "Automation & Process Optimization"
+
+  # Experience
+  experience:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - job: "Analytics Analyst"
+        company: "Interbank"
+        companyUrl: "https://interbank.pe/"
+        date: "Feb 2023 to Jun 2023 - Lima Peru"
+        info:
+          enable: false
+        content: |
+          *One of the largest private and commercial banks in Peru, employing over 6,000 people and reporting a net income of $239M USD. It is part of Intercorp, a leading Peruvian conglomerate.*
+
+          - Developed a Power BI dashboard for the Care team to track absenteeism and identify vulnerable employee populations, leveraging SQL for data extraction and DAX for advanced data analysis and visualization.
+          - Automated the monthly employee cost calculation process using Python libraries (Pandas, Numpy, SQLite, psycopg2, pyodbc), streamlining data processing and generation of Excel reports, improving efficiency.
+          - Streamlined data processing and model training, enabling proactive HR decision-making by initiating the development of a predictive model to forecast employee quit rates within the next 3 months using Python (scikit-learn, XGBoost, imbalanced-learn).
+
+      - job: "Data & Analytics Analyst"
+        company: "Culqi"
+        companyUrl: "https://culqi.com/"
+        date: "Feb 2022 to Feb 2023 - Lima Peru"
+        info:
+          enable: false
+        content: |
+          *Fintech in Peru with over 300 employees. It specializes in facilitating digital payments and is part of Krealo, the corporate venture capital (CVC) of Credicorp Holding.*
+
+          - Designed and structured databases within the EDW on the company’s AWS RDS to track Human Resources indicators, streamlining data extraction and creating Power BI dashboards, reducing operational tasks for the HR team by 70%.
+          - Reduced revenue loss by 10% by developing a predictive churn model in Python (scikit-learn, XGBoost, imbalanced-learn), identifying at-risk customers likely to stop using POS products through performance metrics like recall, F1-score, and AUC-ROC.
+          - Achieved a $3.5M GPV increase for the Dealers channel, representing 500% growth from Q1 to Q3 in its first year, by delivering strategic insights during weekly work sessions with top management and channel leaders.
+          - Streamlined operational time by 75% and enhanced efficiency for the Dealers channel by developing an Excel VBA macro to automate partner communications, streamlining the process with automatic email delivery.
+
+      - job: "Product Development Intern"
+        company: "Banco de Credito del Peru"
+        companyUrl: "https://www.viabcp.com/"
+        date: "Feb 2021 to Jan 2022 - Lima Peru"
+        info:
+          enable: false
+        content: |
+          *The largest bank in Peru, employing over 27,000 people and reporting a net income of $1.2 billion USD. It is the main subsidiary of Credicorp Ltd., the largest financial holding company in Peru.*
+
+          - Extracted and analyzed iPhone user data via SQL to support the launch of Apple Pay in Peru, ensuring targeted email campaigns and accurate cashback processing for new users during deployment.
+          - Increased approved and fully authenticated transactions by 15% by building a Power BI dashboard to analyze fraud rules for secure merchant transactions, identifying top declining codes and redefining rules with data extracted from Visa.
+          - Enhanced recurring payment affiliations by 10% for UNICEF's outreach through the optimization of a customer database using SQL to label average billing tiers, while leading work sessions and meetings with key stakeholders.
+          - Achieved a 90% compliance rate on transaction volume goals through the management of two commercial campaigns for Mobile Payments and Interbank Transfers products, leveraging SQL for customer segmentation and targeting high-value users based on historical data and merchant-specific insights.
+
+      - job: "Control and Continuous Improvement Intern"
+        company: "Rimac Seguros y Reaseguros"
+        companyUrl: "https://www.rimac.com/"
+        date: "March 2020 to Oct 2020 - Lima Peru"
+        info:
+          enable: false
+        content: |
+          *One of the leading insurance companies in Peru, employing over 4,000 people and reporting a net income of $112M USD. It is part of Breca Group, one of the largest and most prominent business conglomerates in Peru.*
+
+          - Developed and automated Power BI dashboards to monitor daily and monthly debt collection effectiveness, sharing key insights via email with interactive links to detailed reports.
+          - Created SQL queries to segment doubtful collection provisions, accurately allocating them to management teams for effective resolution.
+          - Optimized segmentation operational time by 50% by designing and implementing Excel macros to automate repetitive tasks, including lookups, filtering, and sheet creation, streamlining workflows and improving efficiency.
+
+      # - job: "Data & Analytics Analyst"
+      #   company: "Culqi"
+      #   companyUrl: "https://culqi.com/"
+      #   date: "Feb 2022 to Feb 2023 - Lima Peru"
+      #   featuredLink:
+      #     enable: true
+      #     name: "View the project"
+      #     url: "https://example.com"
+      #   info:
+      #     enable: true
+      #     content: I worked as a software developer for more than one year in Amazon.
+      #   content: |
+      #     I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+
+      #     - Lead backend developer for a product.
+      #     - Created a frontend design for a product.
+
+  # Education
+  education:
+    enable: true
+    # title: "Custom Name"
+    index: false
+    items:
+      - title: "Postgraduate Program in Project Management"
+        school:
+          name: "George Brown College - Toronto Canada"
+          url: "https://www.georgebrown.ca/"
+        date: "2024 - 2024"
+        GPA: "4.0 out of 4.0"
+        content: |-
+          Key Subjects Covered and Notable Achievements
+            - Scope and Quality Management | Risk Management | Organizational Behavior Management | Agile Management | Schedule and Cost Management.
+            - Placement on the Dean's Honor List for my excellent academic performance during Spring and Fall 2024 semester.
+        # featuredLink:
+        #   enable: true
+        #   name: "My academic record"
+        #   url: "https://example.com"  
+          
+      - title: "Postgraduate Program in Analytics for Business Decision Making"
+        school:
+          name: "George Brown College - Toronto Canada"
+          url: "https://www.georgebrown.ca/"
+        date: "2009 - 2013"
+        GPA: "3.9 out of 4.0"
+        content: |-
+          Key Subjects Covered and Notable Achievements
+            - Statistics | Data Mining and Modelling | Data Capstone Project | Machine and Deep Learning | Neural Network | Supervised and Unsupervised Learning Models.<br>
+            - Placement on the Dean's Honor List for my excellent academic performance during Spring and Fall 2024 semester.
+        # featuredLink:
+        #   enable: true
+        #   name: "My academic record"
+        #   url: "https://example.com"   
+
+      - title: "Postgraduate Program in Analytics and Business Intelligence"
+        school:
+          name: "Pacifico Business School - Lima Peru"
+          url: "https://pbs.edu.pe/default.aspx"
+        date: "2009 - 2013"
+        GPA: "3.8 out of 4.0"
+        content: |-
+          Key Subjects Covered and Notable Achievements
+            - Design and Construction of Data-Based Products and Services | Modeling and Predictive Analytics | Visual Management and Descriptive Analytics | Data Governance in Organizations | Workshop: Business Applications with Analytics.
+            - Achieved 3rd place on the Order of Merit for academic excellence throughout the entire program.
+        # featuredLink:
+        #   enable: true
+        #   name: "My academic record"
+        #   url: "https://example.com"  
+
+      - title: "Bachelor of Science in Industrial Engineering"
+        school:
+          name: "Pontifical Catholic University of Peru - Lima Peru"
+          url: "https://www.pucp.edu.pe/en/"
+        date: "2016 - 2021"
+        GPA: "3.4 out of 4.0"
+        content: |-
+          Key Subjects Covered and Notable Achievements
+            - Information Technologies | Business Plan | System Simulation | Industrial Logistics | Engineering Economics | Applied Statistics | Operations Research | Project Development, Evaluation, and Management.
+            - First place in Mathematical Modeling and Quality Control courses.
+        # featuredLink:
+        #   enable: true
+        #   name: "My academic record"
+        #   url: "https://example.com"  
+      # - title: "Analytics for Business Decision Making Postgraduate Program"
+      #   school:
+      #     name: "George Brown College - Toronto Canada"
+      #     url: "https://www.georgebrown.ca/"
+      #   date: "2009 - 2013"
+      #   GPA: "3.9 out of 4.0"
+      #   content: |-
+      #     I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
+      #     - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
+      #     - Face mask detection using a single convolutional neural network.
+
+      #     Extracurricular Activities
+      #       - Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      #       - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+      #   featuredLink:
+      #     enable: true
+      #     name: "My academic record"
+      #     url: "https://example.com"
+
+  # # Achievements
+  # achievements:
+  #   enable: true
+  #   # title: "Custom Name"
+  #   items:
+  #     - title: Google kickstart runner
+  #       content: I solved all problems with optimal solution.
+  #       url: https://example.com
+  #       image: /images/achievment.jpg
+  #     - title: Facebook Hackathon Winner
+  #       content: Developed a product using Artificial Intelligence.
+  #       image: /images/achievment.jpg
+  #     - title: Hugo Profile
+  #       content: Developed a theme and getting 1K+ downloads per month.
+  #       url: "https://github.com/gurusabarish/hugo-profile"
+  #       image: /images/achievment.jpg
+  #     - title: Microsoft Imagine Runner
+  #       content: We are developed a product which can help others.
+  #     - title: Google Summer of Code
+  #       content: Contributed to a open source project.
+  #       url: https://example.com
+
+  # projects
+  projects:
+    enable: true
+    title: "Portfolio"
+    items:
+      - title: Spotify Album Analysis 🎵
+        content: A data analysis project exploring Spotify's 2024 album trends. It features insights on album popularity, track trends, genre distribution, and visualizations through regression plots and statistical tests.
+        image: /images/projects/spotify_project.png
+        featured:
+          name: See on GitHub
+          icon: fa fa-envelope
+          link: https://github.com/diegofernandezarista/project_spotify_api_analysis
+        badges:
+          - "Python"
+          - "Bootstrap"
+          - "Javascript"
+        links:
+          # - icon: fa fa-envelope
+          #   url: mailto:?subject=Spotify%20API%20Project&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          - icon: fab fa-github
+            url: https://github.com/gurusabarish/hugo-profile
+          # - icon: fab fa-twitter
+          #   url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+
+  #Contact
+  contact:
+    enable: true
+    # title: "Custom Name"
+    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    btnName: Mail me
+    btnLink: mailto:diego.fernandezarista@gmail.com
+    # formspree:
+    #   enable: true # `contact.email` value will be ignored
+    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+    #   emailCaption: "Enter your email address"
+    #   messageCaption: "Enter your message here"
+    #   messageRows: 5
+
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: Recent Posts
+      enable: true
+      disableFeaturedImage: false
+    socialNetworks:
+      github: https://github.com/diegofernandezarista
+      linkedin: https://www.linkedin.com/in/diego-fernandez-arista/
+      # twitter: https://twitter.com
+      instagram: https://www.instagram.com/diego_fer18/
+      # facebook: https://facebook.com
+
+  # List pages like blogs and posts
+  listPages:
+    disableFeaturedImage: false
+
+  # Single pages like blog and post
+  singlePages:
+    socialShare: true
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+    tags:
+      openInNewTab: true
+
+  # For translations
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    pageNotFound: "Page not found"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
+
+  #customScripts: -| # You can add custom scripts which will be added before </body> tag
+  #  <script type="text/javascript"><!-- any script here --></script>

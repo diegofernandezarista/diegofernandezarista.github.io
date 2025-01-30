@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Diego Fernandez</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on Diego Fernandez</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 Jan 2025 22:53:58 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bias</title>
+      <link>http://localhost:1313/tags/bias/</link>
+      <pubDate>Mon, 27 Jan 2025 22:53:58 +0530</pubDate>
+      <guid>http://localhost:1313/tags/bias/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Overfitting</title>
+      <link>http://localhost:1313/tags/overfitting/</link>
+      <pubDate>Mon, 27 Jan 2025 22:53:58 +0530</pubDate>
+      <guid>http://localhost:1313/tags/overfitting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Underfitting</title>
+      <link>http://localhost:1313/tags/underfitting/</link>
+      <pubDate>Mon, 27 Jan 2025 22:53:58 +0530</pubDate>
+      <guid>http://localhost:1313/tags/underfitting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Variance</title>
+      <link>http://localhost:1313/tags/variance/</link>
+      <pubDate>Mon, 27 Jan 2025 22:53:58 +0530</pubDate>
+      <guid>http://localhost:1313/tags/variance/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
