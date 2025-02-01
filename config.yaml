@@ -372,8 +372,8 @@ params:
           link: https://github.com/diegofernandezarista/project_spotify_api_analysis
         badges:
           - "Python"
-          - "Bootstrap"
-          - "Javascript"
+          - "Data Visualization"
+          - "Statistics"
         links:
           # - icon: fa fa-envelope
           #   url: mailto:?subject=Spotify%20API%20Project&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
