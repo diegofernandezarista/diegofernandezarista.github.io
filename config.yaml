@@ -373,7 +373,7 @@ params:
         badges:
           - "Python"
           - "Data Visualization"
-          - "Statistics"
+          - "Statistic"
         links:
           # - icon: fa fa-envelope
           #   url: mailto:?subject=Spotify%20API%20Project&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
