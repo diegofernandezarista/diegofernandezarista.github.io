@@ -9,7 +9,7 @@ tags:
   - Variance
   - Underfitting
   - Overfitting
-image: /images/post_spotify_project2.png
+image: /images/post_bias_variance_tradeoff.png
 description: ""
 toc: 
 ---
