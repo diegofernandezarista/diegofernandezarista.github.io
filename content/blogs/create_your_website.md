@@ -1,6 +1,6 @@
 ---
 title: "How to Create a Personal Website for Your Data Portfolio Using Hugo Templates and GitHub Pages"
-date: 2025-02-03T22:53:58+05:30
+date: 2025-02-04T22:53:58+05:30
 draft: false
 github_link: "https://github.com/diegofernandezarista"
 author: "Diego Fernandez Arista"
