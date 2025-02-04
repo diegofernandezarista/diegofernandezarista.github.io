@@ -60,7 +60,7 @@ toc:
 ```bash
   winget install Hugo.Hugo.Extended
 ```
-- For macOS, use:
+- For **_macOS_**, use:
 ```bash
   brew install hugo
 ```
