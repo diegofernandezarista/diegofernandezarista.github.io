@@ -114,7 +114,8 @@ toc:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Where copy yaml toml](/images/create_your_website/where_copy_yaml_toml.png)
 
-- **Important**: <p style="text-align: justify;">When you create your new Hugo website, you'll have a `.toml` or `.yaml` configuration file by default. Delete this file, as you'll be using the one copied from the `exampleSite` folder. If both files exist simultaneously, <b>Step G</b> won’t work.</p>
+- **Important**: <p style="text-align: justify;">When you create your new Hugo website, you'll have a `.toml` or `.yaml` configuration file by default. Delete this file, as you'll be using the one copied from the `exampleSite` folder. If both files exist simultaneously, <b>Step G</b> won’t work.<br><br>
+Additionally, if the `exampleSite` folder is not present in the repository you cloned, the configuration for the chosen theme may differ. In that case, please follow the instructions provided in the theme's repository.</p>
 
 **f. Edit the Configuration File**
 - Open the file in your code editor and update it with your information.
